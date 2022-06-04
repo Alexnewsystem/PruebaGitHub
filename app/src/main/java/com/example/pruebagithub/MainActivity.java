@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private  void  cargarResultados(){
         Toast.makeText(this, "resultados cargando", Toast.LENGTH_SHORT).show();
         Intent i= new Intent(this, MainActivity2.class);
+        startActivity(i);
     }
 
     private void recibirDatos(){
